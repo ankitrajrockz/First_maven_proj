@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.TestListners"/>
+  </listeners>
+  <test name="Checking_Basics(failed)">
+    <classes>
+      <class name="learningTestingFramework.TestNGTC">
+        <methods>
+          <include name="browserClose"/>
+          <include name="testngSoftAssert"/>
+          <include name="browserInvoke"/>
+        </methods>
+      </class> <!-- learningTestingFramework.TestNGTC -->
+    </classes>
+  </test> <!-- Checking_Basics(failed) -->
+</suite> <!-- Failed suite [Suite] -->
