@@ -147,7 +147,7 @@ public class TestNGTC {
 		try { 	 	
 			driver.switchTo().frame("");
 			driver.navigate().refresh();
-			driver.manage().timeouts().implicitlyWait(time, unit)
+			//driver.manage().timeouts().implicitlyWait(time, unit)
 			driver.get("http://in.bookmyshow.com");
 			Wait(3);
 			//takescreenshot(driver);
